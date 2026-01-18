@@ -6,12 +6,7 @@ require (
 	github.com/docker/docker v20.10.27+incompatible
 	github.com/docker/go-connections v0.4.0
 	github.com/docker/go-units v0.5.0
-)
-
-// Chan cac ban thu vien gay loi Go 1.24
-exclude (
-	github.com/docker/docker v24.0.0+incompatible
-	github.com/docker/docker v25.0.0+incompatible
-	github.com/docker/docker v26.0.0+incompatible
-	golang.org/x/net v0.33.0
+	golang.org/x/sys v0.13.0
+	golang.org/x/net v0.17.0
+	golang.org/x/time v0.3.0
 )

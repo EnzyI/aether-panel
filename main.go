@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/docker/docker@latest"
+	"github.com/docker/docker/cilent"
 )
 
 func main() {

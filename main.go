@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/docker/docker"
+	"github.com/docker/docker@latest"
 )
 
 func main() {
